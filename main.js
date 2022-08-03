@@ -1,2 +1,4 @@
 // main.js
-App.showCenterLabel("안녕 피타~~~ 만나서 반가워!!!");
+App.onJoinPlayer.Add(function(p) {
+    App.showCenterLabel("Hello Pitta",0x6758FF, 0x000000, 115)
+});
